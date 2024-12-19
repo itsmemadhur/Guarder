@@ -142,15 +142,20 @@ export default function Home()
                 <div className="col-md-4">
                   <div className="box">
                     <div className="img-box">
-                      <svg
+                      {/* <svg
                         enableBackground="new 0 0 512 512"
                         height="512"
                         viewBox="0 0 512 512"
                         width="512"
                         xmlns="http://www.w3.org/2000/svg"
                       >
+                       </svg> */}
+                       <img src="images/s1.png" alt="" height={80} width={100}/>
+                       
+
                         {/* SVG Content */}
-                      </svg>
+                      
+
                     </div>
                     <div className="detail-box">
                       <h6>Home Security</h6>
@@ -165,16 +170,18 @@ export default function Home()
                 {/* Service 2 */}
                 <div className="col-md-4">
                   <div className="box">
-                    <div className="img-box">
-                      <svg
+                    <div className="img-box ">
+                      {/* <svg
                         xmlns="http://www.w3.org/2000/svg"
                         xmlnsXlink="http://www.w3.org/1999/xlink"
                         viewBox="0 0 512 512"
                         style={{ enableBackground: "new 0 0 512 512" }}
                         xmlSpace="preserve"
                       >
+                      </svg> */}
+                      <img src="images/s2.png" alt="" height={80} width={100}/>
+
                         {/* SVG Content */}
-                      </svg>
                     </div>
                     <div className="detail-box">
                       <h6>Office Security</h6>
@@ -190,15 +197,17 @@ export default function Home()
                 <div className="col-md-4">
                   <div className="box">
                     <div className="img-box">
-                      <svg
+                      {/* <svg
                         xmlns="http://www.w3.org/2000/svg"
                         xmlnsXlink="http://www.w3.org/1999/xlink"
                         viewBox="0 0 512 512"
                         style={{ enableBackground: "new 0 0 512 512" }}
                         xmlSpace="preserve"
                       >
+                      </svg> */}
+                      <img src="images/s3.png" alt="" height={80} width={100}/>
+
                         {/* SVG Content */}
-                      </svg>
                     </div>
                     <div className="detail-box">
                       <h6>Network Security</h6>
